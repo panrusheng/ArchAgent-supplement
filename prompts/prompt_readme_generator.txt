@@ -78,6 +78,12 @@ Contains summaries of the most important program entry files and their correspon
 
 Information on related upstream and downstream code repositories is as follows:
 Contains information such as related APIs, QPS, and repository READMEs.
+The format is:
+Related repo x:
+name: repo_name
+readme: repo_readme
+related_aips:
+[api1:qps, api2:qps, ...apim:qps]
 {related_repo_info}
 
 You need to use this information to write a concise and clear summary, removing any uncertain results in the process. Only keep the most certain content.
